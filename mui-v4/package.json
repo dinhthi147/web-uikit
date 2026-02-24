@@ -1,0 +1,46 @@
+{
+  "name": "uikit-mui-v4",
+  "version": "1.0.0",
+  "description": "UIKit Mui v4",
+  "main": "index.ts",
+  "author": "Thi Nguyen",
+  "license": "UNLICENSED",
+  "peerDependencies": {
+    "@material-ui/core": "*",
+    "@material-ui/icons": "*",
+    "@material-ui/lab": "*",
+    "@mui/material": "*",
+    "@mui/x-date-pickers": "*",
+    "@types/react": "*",
+    "axios": "*",
+    "lodash": "*",
+    "moment": "*",
+    "moment-timezone": "*",
+    "react": "*",
+    "react-router-dom": "*",
+    "react-toastify": "*",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "@dwarvesf/react-hooks": "^0.8.2",
+    "@tinymce/tinymce-react": "^4.3.2",
+    "@types/react": "18.2.25",
+    "fs-extra": "^11.2.0",
+    "react-dropzone": "^11.3.4",
+    "react-number-format": "^4.9.1",
+    "tinymce": "^6.8.3"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "eslint": "^8.57.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "2.2.1"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "format": "prettier --config .prettierrc --write",
+    "postinstall": "node ./postinstall.js"
+  }
+}

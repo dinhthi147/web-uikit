@@ -1,0 +1,46 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "import", "react-hooks"],
+  "rules": {
+    "no-throw-literal": 0,
+    "strict": 0,
+    "no-use-before-define": 0,
+    "no-unused-vars": 0,
+    "no-duplicate-imports": "error",
+    "@typescript-eslint/no-unused-vars": 1,
+    "no-useless-escape": 0,
+    "no-shadow": "off",
+    "require-await": "error",
+    "@typescript-eslint/no-shadow": 1,
+    "import/prefer-default-export": [0],
+    "import/no-extraneous-dependencies": [0],
+    "quotes": ["warn", "single", { "avoidEscape": true }],
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "external",
+          "internal",
+          "index",
+          "sibling",
+          "parent",
+          "builtin",
+          "object",
+          "type"
+        ],
+        "newlines-between": "always",
+        "alphabetize": {
+          /* sort in ascending order. Options: ["ignore", "asc", "desc"] */
+          "order": "asc",
+          /* ignore case. Options: [true, false] */
+          "caseInsensitive": true
+        }
+      }
+    ]
+  }
+}
