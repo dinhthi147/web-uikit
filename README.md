@@ -5,7 +5,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
 ## 🎯 Strategic Overview
-As a **Head of IT and Product Manager**, I architected this UI Kit as a **Shared Library System** using **Git Submodules**. This approach ensures that multiple enterprise platforms—ranging from logistics dashboards to customer portals—remain synchronized with a single, centralized Design System.
+As a **Head of IT and Technical Product Manager**, I architected this UI Kit as a **Shared Library System** using **Git Submodules**. This approach ensures that multiple enterprise platforms—ranging from logistics dashboards to customer portals—remain synchronized with a single, centralized Design System.
 
 This repository is designed to be integrated as a core module within larger host applications, providing a standardized set of UI components and shared logic.
 
