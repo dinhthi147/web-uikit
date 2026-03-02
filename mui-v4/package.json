@@ -4,7 +4,7 @@
   "description": "UIKit Mui v4",
   "main": "index.ts",
   "author": "Thi Nguyen",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "peerDependencies": {
     "@material-ui/core": "*",
     "@material-ui/icons": "*",
