@@ -1,4 +1,4 @@
-# 🏛️ Enterprise Design System - MUI v5 & TypeScript
+# 🏛️ Enterprise Design System - MUI v4 & TypeScript & More
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Material UI (v4)](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)
